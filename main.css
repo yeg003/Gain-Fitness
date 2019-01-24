@@ -1,0 +1,108 @@
+* {
+    font-family:  Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+
+#navbar-container{
+    
+    font-size: 1.3rem;
+    padding: 20px;
+    width: 100%;
+    
+
+}
+.wrapper span{
+    color: orangered;
+    font-weight: 900;
+    
+}
+.wrapper .logo{
+    font-weight: 900;
+    font-size: 1.7rem;    
+}
+.wrapper ul{
+
+    font-weight: 700;
+}
+
+.wrapper ul li{
+    list-style-type: none;
+    padding: 0 20px 0;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: black;
+}
+.wrapper a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+/* Hero-img Section */
+
+#hero-section .hero-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Img/gainhero.jpg");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+    align-items: center;
+    justify-content: center;
+}
+#hero-section .hero-title{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    flex-grow: 
+}
+#hero-section h2{
+    color: white;
+    
+}
+#hero-section p {
+    text-align: center;
+    color: white;
+    
+}
+
+
+/* Media queries */
+@media only screen and (min-width: 768px){ 
+   
+    #navbar-container .wrapper, h1, ul {
+            display: flex;              
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+    }
+    .wrapper ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 700; 
+        width: 100%;
+       
+    }
+    }
+    @media only screen and (min-width: 500px){
+        #navbar-container .wrapper, h1 , ul {
+            display: flex;              
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            
+            
+        }
+        .wrapper ul {
+            display: flex;
+            flex-wrap: wrap;
+            font-weight: 700; 
+            width: 100%;
+        }
+
+}
