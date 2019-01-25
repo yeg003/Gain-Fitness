@@ -1,5 +1,6 @@
 @import url("hero-section.css");
 @import "about-section.css";
+@import "info-section.css";
 
 * {
     font-family:  Helvetica, sans-serif;

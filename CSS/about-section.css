@@ -6,6 +6,7 @@
     justify-items: center;
     padding-top: 40px; 
     margin: 0 auto;
+    margin-bottom: 50px;
     
  }
  #about-section .about-title {
@@ -23,8 +24,10 @@
      color: #868686;
      padding-bottom: 50px;
      line-height: 1.7;
+     margin: 0 auto;
  }
  
+
  
  #about-section .about-left{
      color: #868686;
@@ -73,7 +76,7 @@
     font-size: 1rem;
     margin-top:10px; 
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     
 }
 
@@ -93,7 +96,7 @@
         flex: column;
         width: 50%;
     }
-
+ }
     @media only screen and (min-width: 768px){ 
         #about-section #about-container{
             display: flex;
