@@ -1,7 +1,7 @@
 #gym-info{
     display:flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Img/gainhero.jpg");
-    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Img/gain3.jpg");
+    height: 200px;
 }
 #gym-info .info-container{
     display:flex;
@@ -9,26 +9,36 @@
     justify-content: space-between;
     width: 50%;
     margin: 0 auto;
-   
     line-height: 1.5;
     text-align: center;
     font-weight: bold;
 }
 
 #gym-info .clock-box{
-    border: 2px solid white;
     padding: 30px;
     margin: 10px;
     background-color: white;
 }
+#gym-info .clock-box:hover{
+    background-color: #fb5610;
+}
+
+#gym-info .fa-clock{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+#gym-info .clock-number{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
 #gym-info .heart-box{
-    border: 2px solid white;
+    
     padding: 30px;
     margin: 30px;
     background-color: white;
 }
 #gym-info .thumbs-box{
-    border: 2px solid white;
+    
     padding: 30px;
     margin: 30px;
     background-color: white;
