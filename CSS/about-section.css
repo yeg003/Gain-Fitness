@@ -27,8 +27,6 @@
      margin: 0 auto;
  }
  
-
- 
  #about-section .about-left{
      color: #868686;
      flex-grow: 1;
@@ -55,9 +53,7 @@
      color: white;
  }
 
- #about-container .about-right{
-     flex-grow: 4;
- }
+
 
  #about-container .about-right-title{
      padding-bottom: 20px;
@@ -76,7 +72,10 @@
     font-size: 1rem;
     margin-top:10px; 
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: right;
+    float: right;
+
     
 }
 
@@ -88,19 +87,34 @@
 
 
  /* Media Queries */
+
+  /* Desktop & laptop */
  @media only screen and (min-width: 500px){
-    
     
     #about-section #about-container{
         display: flex;
         flex: column;
         width: 50%;
     }
+    
+   
  }
-    @media only screen and (min-width: 768px){ 
+ /* Tablet & Phone */
+    @media only screen and (max-width: 768px){ 
         #about-section #about-container{
             display: flex;
+            flex-direction: column;
             flex: row;
             width: 50%;
+        }
+        #about-section .about-p{
+            text-align: left;
+        }
+        #about-section .about-btn-left{
+            margin-bottom: 40px;
+        }   
+        #about-container .about-right-btn{
+            float: left;
+            font-size: 1.2rem;
         }
     }
