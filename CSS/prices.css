@@ -1,12 +1,16 @@
-
+#body-wrapper{
+    background-color: #f7f7f7;
+}
 #price-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    padding-top: 40px;
+    padding-top: 60px;
     margin: 0 auto;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    background-color: #f7f7f7;
+
 }
 
 #price-section .price-title{
@@ -24,4 +28,127 @@
      color: #868686;
      padding-bottom: 50px;
      line-height: 1.7;
+}
+
+#membership-section .membership-container {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    flex-wrap: wrap;
+}
+
+#membership-section .member{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: white;
+    box-shadow: -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    margin: 10px;
+}
+
+#membership-section .member-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Img/price-section.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 300px;
+    color: #fdfffe;
+    margin-right: 30px; 
+    
+}
+
+#membership-section .member .member-price{
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+#membership-section .member .member-name{
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  #fdfffe;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding: 0px 50px 10px;
+    
+}
+
+#membership-section .member .member-info{
+    padding-top: 20px;
+}
+
+#membership-section .member-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#membership-section .member-title{
+    padding: 10px 0 50px 0;
+    color: #242424;
+    font-size: 1.7rem;
+}
+
+#membership-section .member-box1 {
+    display: flex;
+    margin-right:10px;
+    padding-bottom:30px;
+}
+
+#membership-section .member-right .member-text{
+    color: #868686;
+    padding-left:10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+
+#membership-section .member-right .member-button .btn{
+    text-align: center;
+    background-color: #ee542d;
+    border: solid 1px transparent;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    color: white;
+}
+#membership-section .member-right .member-button a {
+    text-decoration:none;
+    color: white;
+}
+
+#membership-section .member-right .member-button a:hover{  
+    color: black;
+}
+
+@media only screen and (max-width: 768px){
+    #membership-section .membership-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    #membership-section .member{
+        width: 600px;
+    
+    }
+}
+
+@media (max-width:468px){
+    #price-section{
+        margin-bottom: 0px;
+    }
+    #membership-section .member{
+        width: 300px;
+        flex-direction: column;
+    }
+    #membership-section .member-left{
+        width: 280px;
+        margin-right: 0px;
+    }
 }
