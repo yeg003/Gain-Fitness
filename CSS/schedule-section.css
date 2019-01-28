@@ -1,0 +1,226 @@
+
+#schedule-section .schedule-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 40px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center; 
+    
+    
+}
+#schedule-section  .schedule-title{
+    font-size: 2rem;
+    padding-top: 40px; 
+}
+
+#schedule-section .fa-dumbbell{
+    color: #ee542d;
+    font-size: 1.5rem;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+#schedule-section .schedule-p{
+    width: 50%;
+    text-align: center;
+    color: #868686;
+    padding-bottom: 50px;
+    line-height: 1.7;
+} 
+#schedule-section .class-info {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+   
+}
+#schedule-section .class-info .body-building{
+    width: 400px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/body-building2.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+#schedule-section .class-info .body-building{
+    justify-content: flex-end;
+  
+}
+#schedule-section .class-info .body-building .body-content{
+    padding: 0 10px;
+}
+
+#schedule-section .class-info .body-building .body-name{
+    background-color: black;
+    border-radius: 5px;
+    opacity: 0.8;
+    color: white;
+    letter-spacing: 2px;
+    padding: 5px 0 ;
+    font-size: 1.5rem;
+}
+
+#schedule-section .class-info .body-building .body-name:hover{
+background-color: #ee542d;
+color: white;
+}
+
+#schedule-section .class-info .body-building .body-date {
+    color: #ee542d;
+    padding: 5px 0;
+    font-size: 1.3rem;
+}
+#schedule-section .class-info .body-building .body-time{
+    color:white;
+    padding-bottom: 5px;
+}
+
+#schedule-section .class-info .cardio{
+    justify-content: flex-end;
+}
+#schedule-section .class-info .cardio{
+    width: 400px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/cardio\ \(2\).jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+#schedule-section .class-info .cardio .cardio-content{
+    padding: 0 10px;
+}
+
+#schedule-section .class-info .cardio .cardio-name{
+    background-color: black;
+    border-radius: 5px;
+    opacity: 0.8;
+    color: white;
+    letter-spacing: 2px;
+    padding: 5px 0 ;
+    font-size: 1.5rem;
+}
+#schedule-section .class-info .cardio .cardio-name{
+    letter-spacing: 2px;
+    padding: 5px 0 ;
+    font-size: 1.5rem;
+}
+
+#schedule-section .class-info .cardio .cardio-name:hover{
+    background-color: #ee542d;
+    color: white;
+    }
+
+    #schedule-section .class-info .cardio .cardio-date {
+        color: #ee542d;
+        padding: 5px 0;
+        font-size: 1.3rem;
+    }
+    #schedule-section .class-info .cardio .cardio-time{
+        color:white;
+        padding-bottom: 5px;
+    }
+    #schedule-section .class-info .yoga{
+        justify-content: flex-end;
+    }
+    
+    #schedule-section .class-info .yoga{
+        width: 400px;
+        height: 500px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/yoga.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px;
+    }
+
+    #schedule-section .class-info .yoga .yoga-content{
+        padding: 0 10px;
+    }
+
+    #schedule-section .class-info .yoga .yoga-name{
+        background-color: black;
+        border-radius: 5px;
+        opacity: 0.8;
+        color: white;
+        letter-spacing: 2px;
+        padding: 5px 0 ;
+        font-size: 1.5rem;
+    }
+    
+    #schedule-section .class-info .yoga .yoga-name:hover{
+        background-color: #ee542d;
+        color: white;
+        }
+
+        #schedule-section .class-info .yoga .yoga-date {
+            color: #ee542d;
+            padding: 5px 0;
+            font-size: 1.3rem;
+        }
+        #schedule-section .class-info .yoga .yoga-time{
+            color:white;
+            padding-bottom: 5px;
+        }
+
+        #schedule-section .class-info .aerobic{
+            justify-content: flex-end;
+        }
+
+        #schedule-section .class-info .aerobic{
+            width: 400px;
+            height: 500px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/aerobics.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            margin: 10px 20px;
+        }
+
+        #schedule-section .class-info .aerobic .aerobic-content{
+            padding: 0 10px;
+        }
+    
+        #schedule-section .class-info .aerobic .aerobic-name{
+            background-color: black;
+            border-radius: 5px;
+            opacity: 0.8;
+            color: white;
+            letter-spacing: 2px;
+            padding: 5px 0 ;
+            font-size: 1.5rem;
+        }
+        
+        #schedule-section .class-info .aerobic .aerobic-name:hover{
+            background-color: #ee542d;
+            color: white;
+            }
+    
+            #schedule-section .class-info .aerobic .aerobic-date {
+                color: #ee542d;
+                padding: 5px 0;
+                font-size: 1.3rem;
+            }
+            #schedule-section .class-info .aerobic .aerobic-time{
+                color:white;
+                padding-bottom: 5px;
+            }
+/* Media Queries */
+
+/* tablets */
+@media only screen and (max-width: 768px){
+    #schedule-section .schedule-p{
+        text-align: left;
+    }
+    
+}
+
+@media (max-width:468px){
+    
+}

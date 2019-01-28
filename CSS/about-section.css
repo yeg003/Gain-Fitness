@@ -14,7 +14,7 @@
  }
  
  #about-section .fa-dumbbell {
-     color: orangered;
+     color: #ee542d;
      font-size: 1.5rem;
      padding: 10px 0 10px 0;
   }
@@ -24,7 +24,6 @@
      color: #868686;
      padding-bottom: 50px;
      line-height: 1.7;
-     margin: 0 auto;
  }
  
  #about-section .about-left{
@@ -39,7 +38,7 @@
  }
 
  #about-section .about-btn-left {
-    background-color: orangered;
+    background-color: #ee542d;
     text-align: center;
     padding: 10px 20px;
     border: solid 1px transparent;
@@ -64,7 +63,7 @@
  line-height: 1.5;
 }
 #about-container .about-right-btn{
-    background-color: orangered;
+    background-color: #ee542d;
     text-align: center;
     padding: 5px 15px;
     border: solid 1px transparent;

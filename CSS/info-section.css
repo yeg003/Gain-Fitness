@@ -3,6 +3,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Img/gain3.jpg");
     height: 100%;;
     width: 100%;
+    margin-bottom: 50px;
 }
 #gym-info .info-container{
     display:flex;
@@ -44,7 +45,7 @@
     border-radius: 5px; 
 }
 #gym-info .heart-box:hover{
-    background-color: #fb5610;
+    background-color: #ee542d;
     color: white;
 }
 
@@ -120,6 +121,7 @@
 }
 }
 
+/* Phones */
 @media (max-width:468px) {
     #gym-info .clock-box{
         margin-bottom: 10px;
