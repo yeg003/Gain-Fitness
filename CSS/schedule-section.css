@@ -14,6 +14,7 @@
 #schedule-section  .schedule-title{
     font-size: 2rem;
     padding-top: 40px; 
+    color: #232323;
 }
 
 #schedule-section .fa-dumbbell{
@@ -222,5 +223,16 @@ color: white;
 }
 /* tablets */
 @media (max-width:468px){
-    
+    #schedule-section .class-info .body-building{
+        width: 350px;
+    }
+    #schedule-section .class-info .cardio{
+        width: 350px;
+    }
+    #schedule-section .class-info .yoga{
+        width: 350px;
+    }
+    #schedule-section .class-info .aerobic{
+        width: 350px;
+    }
 }

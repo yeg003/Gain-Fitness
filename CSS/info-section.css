@@ -19,6 +19,7 @@
     background-color: white;
     margin: 40px 20px;
     border-radius: 5px; 
+    color: #232323;
 }
 
 #gym-info .clock-box:hover{
@@ -41,11 +42,12 @@
 #gym-info .heart-box{
     padding: 30px 20px;
     background-color: white;
+    color: #232323;
     margin: 40px 20px;
     border-radius: 5px; 
 }
 #gym-info .heart-box:hover{
-    background-color: #ee542d;
+    background-color: #fb5610;
     color: white;
 }
 
@@ -67,6 +69,7 @@
     background-color: white;
     margin: 40px 20px;
     border-radius: 5px; 
+    color: #232323;
 }
 #gym-info .thumbs-box:hover{
     background-color: #fb5610;
@@ -92,6 +95,7 @@
     background-color: white;
     margin: 40px 20px;
     border-radius: 5px; 
+    color: #232323;
 }
 #gym-info .people-box:hover{
     background-color: #fb5610;

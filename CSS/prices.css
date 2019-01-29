@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     background-color: #f7f7f7;
-    flex-wrap: wrap;
+    flex-wrap:wrap
 }
 
 #membership-section .member{
