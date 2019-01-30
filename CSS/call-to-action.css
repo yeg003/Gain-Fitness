@@ -1,7 +1,33 @@
 .call-container{
     background-color: #ee542d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+    justi
 }
 
-.call-container .call-heading{
+ .call-container .left-call{
+   margin-right: 20px;
+}
+.call-container .call-heading {
     color: white;
+   font-size: 2rem;  
+   
+}
+
+.call-container .call-text{
+    color: white;
+   padding-top: 10px;
+}
+
+.call-container .call-btn{
+    background-color: white;
+    text-align: center;
+    padding: 10px 40px;
+    border: solid 1px transparent;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    color: #ee542d;
+    text-align: left;
 }
