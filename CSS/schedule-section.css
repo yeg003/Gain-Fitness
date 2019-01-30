@@ -330,4 +330,10 @@ width: 75%;
     #schedule-section .class-info .aerobic{
         width: 350px;
     }
+    #schedule-section .class-info .crossfit{
+        width: 350px;
+    }
+    #schedule-section .class-info .martial-arts{
+        width: 350px;
+    }
 }

@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 50px 0;
-    justi
+    
 }
 
  .call-container .left-call{
@@ -30,4 +30,20 @@
     font-size: 1.2rem;
     color: #ee542d;
     text-align: left;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px){
+.call-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .call-container .right-call{
+        margin-top: 20px;
+    }
+    .call-container .call-text{
+        line-height: 1.5;
+    }
 }
