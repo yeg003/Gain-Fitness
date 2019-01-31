@@ -5,7 +5,8 @@
 @import "prices.css";
 @import "call-to-action.css";
 @import "blog-section.css";
-@import "footer.css"
+@import "footer.css";
+
 * {
     font-family:  Helvetica, sans-serif;
     padding: 0;
@@ -15,7 +16,7 @@
 }
 
 #navbar-container{
-    
+
     font-size: 1.3rem;
     padding: 20px;
     width: 100%;
