@@ -6,7 +6,7 @@
 @import "call-to-action.css";
 @import "blog-section.css";
 @import "footer.css";
-
+@import "blog-page.css"
 * {
     font-family:  Helvetica, sans-serif;
     padding: 0;
@@ -16,56 +16,60 @@
 }
 
 #navbar-container{
-
     font-size: 1.3rem;
     padding: 20px;
     width: 100%;
-}
-.wrapper span{
-    color: orangered;
-    font-weight: 900;
+    text-align: center;
     
 }
-.wrapper .logo{
+
+.topnav {
+    overflow: hidden;
+  }
+
+  .topnav .logo{
     font-weight: 900;
     font-size: 1.7rem; 
     color: #232323;   
 }
-.wrapper ul{
-    font-weight: 700;
-}
-
-.wrapper ul li{
-    list-style-type: none;
-    padding: 0 20px 0;
-}
-
-.wrapper a {
-  text-decoration: none;
-  color: #232323;
-}
-.wrapper a:hover{
+.topnav span{
     color: orangered;
+    font-weight: 900;
     
 }
+  .topnav a {
+    text-decoration: none;
+    color: #232323;
+    font-weight: 700;
+    list-style-type: none;
+    padding: 0 20px 0;
+  }
+  
+  .topnav a:hover {
+    color: orangered;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
 
 
 
 /* Media queries */
 @media only screen and (min-width: 768px){ 
-   
-    #navbar-container .wrapper, h1, ul {
-            display: flex;              
-            width: 100%;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-    }
+
     .wrapper ul {
         display: flex;
         flex-wrap: wrap;
         font-weight: 700; 
         width: 100%;
+    }
+    .topnav .logo{
+        font-size: 1.4rem;
+    }
+    .topnav a{
+        padding: 0 20px 0;
     }
 
     }
@@ -76,12 +80,32 @@
             justify-content: center;
             align-items: center;
             flex-direction: row;
-            
         }
-        .wrapper ul {
-            display: flex;
-            flex-wrap: wrap;
-            font-weight: 700; 
-            width: 2000px;
-        }
+        .topnav a{
+            padding: 0 20px 0;
+        }   
+       
 }
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      padding-bottom: 10px; 
+    }
+  }

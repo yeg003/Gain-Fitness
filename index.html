@@ -12,22 +12,25 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
-    <script src="main.js"></script>
 </head>
 
 <body>
+
+
     <!-- Navbar Section -->
     <header id="navbar-container">
-        <nav class="wrapper">
-            <h1 class="logo"><span>Gain</span>Fitness</h1>
-            <ul class="">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about-section">About</a></li>
-                <li><a href="prices.html" target="_blank">Prices</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active logo"><span>Gain</span>Fitness</a>
+            <a href="#about-section">About</a>
+            <a href="prices.html" target="_blank">Prices</a>
+            <a href="#">Trainers</a>
+            <a href="blog.html" target="_blank">Blog</a>
+            <a href="#">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+        </div>
     </header>
     <!-- Hero Section -->
     <section id="hero-section">
@@ -42,7 +45,8 @@
     <section id="about-section">
         <h2 class="about-title">About Us</h2>
         <i class="fas fa-dumbbell"></i>
-        <p class="about-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eveniet ducimus, nisi sint
+        <p class="about-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eveniet ducimus, nisi
+            sint
             iste sed ratione
             ab animi quaerat, voluptates corporis aliquid et fuga ut sapiente necessitatibus sit modi quibusdam?</p>
         <div id="about-container">
@@ -55,7 +59,8 @@
                     voluptas aut aperiam eaque
                     obcaecati in. Ipsa iure minus facere at dignissimos voluptatibus, voluptates veniam, recusandae
                     vitae, corrupti et deserunt.</p>
-                <p class="about-left-p mob">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quos
+                <p class="about-left-p mob">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+                    quos
                     voluptas aut aperiam eaque
                     obcaecati in. Ipsa iure minus facere at dignissimos voluptatibus, voluptates veniam, recusandae
                     vitae, corrupti et deserunt.</p>
@@ -167,7 +172,8 @@
             <p class="blog-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eveniet ducimus, nisi
                 sint
                 iste sed ratione
-                ab animi quaerat, voluptates corporis aliquid et fuga ut sapiente necessitatibus sit modi quibusdam?</p>
+                ab animi quaerat, voluptates corporis aliquid et fuga ut sapiente necessitatibus sit modi
+                quibusdam?</p>
             <div class="blog-wrapper">
                 <div class="blog-box">
                     <div class="blog-img">
@@ -247,7 +253,8 @@
         <div class="call-container">
             <div class="left-call">
                 <h2 class="call-heading">Want That Perfect Body?</h2>
-                <p class="call-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis eius fugiat
+                <p class="call-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis eius
+                    fugiat
                     minima tempore.
                 </p>
             </div>
@@ -312,22 +319,17 @@
                         <p class="hours-left">Weekends :</p>
                         <p class="hours-right">Closed</p>
                     </div>
-
-
                 </div>
-
             </div>
-
-
         </div>
-
-
     </footer>
+    <section id="copyright-section">
 
+        <p>&copy;Copyright | 2019. All rights reserved. <span>GainFitness</span>.</p>
 
+    </section>
 
-
-
+    <script src="JS/app.js"></script>
 </body>
 
 </html>
