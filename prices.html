@@ -17,16 +17,18 @@
 <body>
     <!-- Navbar Section -->
     <header id="navbar-container">
-        <nav class="wrapper">
-            <h1 class="logo"><span>Gain</span>Fitness</h1>
-            <ul class="">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Prices</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active logo"><span>Gain</span>Fitness</a>
+            <a href="#about-section">About</a>
+            <a href="prices.html" target="_blank">Prices</a>
+            <a href="#">Trainers</a>
+            <a href="blog.html" target="_blank">Blog</a>
+            <a href="#">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
 
-        </nav>
+        </div>
     </header>
     <!-- Price title -->
     <div id="body-wrapper">
@@ -232,10 +234,7 @@
         </section>
     </div>
 
-
-
-
-
+    <script src="JS/app.js"></script>
 </body>
 
 </html>

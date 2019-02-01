@@ -6,7 +6,8 @@
 @import "call-to-action.css";
 @import "blog-section.css";
 @import "footer.css";
-@import "blog-page.css"
+@import "blog-page.css";
+
 * {
     font-family:  Helvetica, sans-serif;
     padding: 0;
@@ -82,8 +83,8 @@
             flex-direction: row;
         }
         .topnav a{
-            padding: 0 20px 0;
-        }   
+            padding: 0 18px 0;
+        }
        
 }
 
@@ -93,6 +94,7 @@
       float: right;
       display: block;
     }
+   
   }
   
 
@@ -108,4 +110,5 @@
       display: block;
       padding-bottom: 10px; 
     }
+    
   }
