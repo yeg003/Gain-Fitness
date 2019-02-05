@@ -8,6 +8,7 @@
 @import "footer.css";
 @import "blog-page.css";
 @import "trainers.css";
+
 * {
     font-family:  Helvetica, sans-serif;
     padding: 0;

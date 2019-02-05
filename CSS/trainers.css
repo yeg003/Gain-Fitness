@@ -1,4 +1,4 @@
-#trainers-section {
+#trainers-section .trainer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,7 @@
 
 #trainers-section .trainers-title{
     font-size: 2rem;
+    
 }
 
 #trainers-section .fa-dumbbell{
@@ -19,18 +20,77 @@
     padding: 10px 0 10px 0;
 }
 #trainers-section .trainers-p{
-    width: 50%;
+     width: 50%;
      text-align: center;
      color: #868686;
      padding-bottom: 50px;
      line-height: 1.7;
 }
 
+#trainers-section .trainers-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 #trainers-section .trainers-box{
     display: flex;
+    width: 35%;
+    padding: 20px 20px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: -webkit-box-shadow 0px 0px 0.5px 0px rgba(0,0,0,0.60);
+    -moz-box-shadow: 0px 0px 0.5px 0px rgba(0,0,0,0.60);
+    box-shadow: 0px 0px 0.5px 0px rgba(0,0,0,0.60);
+}
+
+#trainers-section .trainers-box .trainers-left{
+    width: 50%;
+    margin-right: 50px;
+}
+
+#trainers-section .trainers-box .trainers-left h2{
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+#trainers-section .trainers-box .trainers-left h4{
+    color: #ee542d;
+    padding-bottom: 10px;
+}
+
+#trainers-section .trainers-box .trainers-left p{
+    color: #868686;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+#trainers-section .trainers-box .trainers-right{
     width: 50%;
 }
 
-#trainers-section .trainers-left{
-    width: 50%;
+
+#trainers-section .trainers-box .trainers-right .trainers-img{
+    width:  100%;
+    height: 100%;
+}
+
+#trainers-section .trainers-box .trainers-right .trainers-img2{
+    width:  100%;
+    height: 100%;
+    text-align: right;
+   
+}
+
+
+#trainers-section .trainers-links i{
+    padding-right: 20px;
+    font-size: 25px;
+}
+#trainers-section .trainers-links a{
+color: #232323;
+}
+#trainers-section .trainers-links a:hover{
+    color: #ee542d;
 }
