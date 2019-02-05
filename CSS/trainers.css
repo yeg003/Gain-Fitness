@@ -83,7 +83,6 @@
    
 }
 
-
 #trainers-section .trainers-links i{
     padding-right: 20px;
     font-size: 25px;
@@ -94,3 +93,23 @@ color: #232323;
 #trainers-section .trainers-links a:hover{
     color: #ee542d;
 }
+
+/* Media Queries  */
+/* M Laptops  */
+
+@media only screen and (max-width: 1024px){
+#trainers-section .trainers-box {
+    width: 50%;
+}
+}
+
+/* Tablets */
+@media only screen and (max-width: 769px){
+    #trainers-section .trainers-box {
+        width: 75%;
+    }
+    }
+
+    Mobile{
+
+    }
