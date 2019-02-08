@@ -5,7 +5,7 @@
     width: 100%;
     margin-bottom: 50px;
 }
-#gym-info .info-container{
+.info-container{
     display:flex;
     flex-wrap: wrap;
     align-items: center; 
@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-#gym-info .clock-box{
+.clock-box{
     padding: 30px 20px;
     background-color: white;
     margin: 40px 20px;
@@ -22,94 +22,94 @@
     color: #232323;
 }
 
-#gym-info .clock-box:hover{
+ .clock-box:hover{
     background-color: #fb5610;
     color: white;
 }
 
-#gym-info .fa-clock{
+ .fa-clock{
     font-size: 2rem;
     padding-bottom: 10px;
 }
-#gym-info .clock-number{
+ .clock-number{
     font-size: 2rem;
     font-weight: 900;
 }
-#gym-info .clock-text{
+ .clock-text{
     font-weight: 700;
     font-size: 1.3rem;
 }
-#gym-info .heart-box{
+ .heart-box{
     padding: 30px 20px;
     background-color: white;
     color: #232323;
     margin: 40px 20px;
     border-radius: 5px; 
 }
-#gym-info .heart-box:hover{
+ .heart-box:hover{
     background-color: #fb5610;
     color: white;
 }
 
-#gym-info .fa-heart{
+ .fa-heart{
     font-size: 2rem;
     padding-bottom: 10px;
 }
 
-#gym-info .heart-number{
+ .heart-number{
     font-size: 2rem;
     font-weight: 900;
 }
-#gym-info .heart-text{
+ .heart-text{
     font-weight: 700;
     font-size: 1.3rem;
 }
-#gym-info .thumbs-box{
+ .thumbs-box{
     padding: 30px 20px;
     background-color: white;
     margin: 40px 20px;
     border-radius: 5px; 
     color: #232323;
 }
-#gym-info .thumbs-box:hover{
+ .thumbs-box:hover{
     background-color: #fb5610;
     color: white;
 }
 
-#gym-info .fa-thumbs-up{
+.fa-thumbs-up{
     font-size: 2rem;
     padding-bottom: 10px;
 }
 
-#gym-info .thumbs-number{
+.thumbs-number{
     font-size: 2rem;
     font-weight: 900;
 }
-#gym-info .thumbs-text{
+ .thumbs-text{
     font-weight: 700;
     font-size: 1.3rem;
 }
 
-#gym-info .people-box{
+ .people-box{
     padding: 30px 20px;
     background-color: white;
     margin: 40px 20px;
     border-radius: 5px; 
     color: #232323;
 }
-#gym-info .people-box:hover{
+ .people-box:hover{
     background-color: #fb5610;
     color: white;
 }
-#gym-info .fa-users{
+ .fa-users{
     font-size: 2rem;
     padding-bottom: 10px;
 }
-#gym-info .people-number{
+ .people-number{
     font-size: 2rem;
     font-weight: 900;
 }
-#gym-info .people-text{
+ .people-text{
     font-weight: 700;
     font-size: 1.3rem;
 }
@@ -119,7 +119,7 @@
 
 /* Tablet  */
 @media only screen and (max-width: 768px){
-#gym-info .info-container{
+ .info-container{
     justify-content: center;
     margin: 0px 53px;
 }
@@ -127,13 +127,13 @@
 
 /* Phones */
 @media (max-width:468px) {
-    #gym-info .clock-box{
+     .clock-box{
         margin-bottom: 10px;
     }
-    #gym-info .heart-box{
+    .heart-box{
         margin-bottom: 10px;
     }
-    #gym-info .thumbs-box{
+    .thumbs-box{
         margin-bottom: 10px;
     }
     
