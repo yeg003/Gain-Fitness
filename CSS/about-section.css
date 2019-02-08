@@ -9,17 +9,17 @@
     margin-bottom: 50px;
     
  }
- #about-section .about-title {
+.about-title {
      font-size: 2rem;
      color: #232323;
  }
  
- #about-section .fa-dumbbell {
+ .fa-dumbbell {
      color: #ee542d;
      font-size: 1.5rem;
      padding: 10px 0 10px 0;
   }
- #about-section .about-p{
+ .about-p{
      width: 50%;
      text-align: center;
      color: #868686;
@@ -27,19 +27,19 @@
      line-height: 1.7;
  }
  
- #about-section .about-left{
+ .about-left{
      color: #868686;
      flex-grow: 1;
  }
 
- #about-section .about-left-p{
+ .about-left-p{
     padding: 0 30px 20px 0;  
     line-height: 1.5;
     font-size: 1.2rem
     text
  }
 
- #about-section .about-btn-left {
+ .about-btn-left {
     background-color: #ee542d;
     text-align: center;
     padding: 10px 20px;
@@ -49,21 +49,23 @@
     margin-top:10px; 
     color: white;
  }
- #about-section .about-btn-left a {
+ 
+ .about-btn-left a {
      text-decoration:none;
      color: white;
  }
 
- #about-container .about-right-title{
+ .about-right-title{
      padding-bottom: 20px;
      color: #232323;
  }
- #about-container .about-right-p{
+ .about-right-p{
  color: #868686;
  padding-bottom: 10px;
  line-height: 1.5;
 }
-#about-container .about-right-btn {
+
+.about-right-btn {
     background-color: #ee542d;
     text-align: center;
     padding: 10px 20px;
@@ -79,7 +81,7 @@
     
 }
 
-#about-container .about-right-btn a {
+ .about-right-btn a {
     text-decoration: none;
     color: white;
 }
@@ -91,7 +93,7 @@
   /* Desktop & laptop */
  @media only screen and (min-width: 500px){
     
-    #about-section #about-container{
+    #about-container{
         display: flex;
         flex: column;
         width: 60%;
