@@ -11,38 +11,38 @@
     
     
 }
-#schedule-section  .schedule-title{
+  .schedule-title{
     font-size: 2rem;
     padding-top: 40px; 
     color: #232323;
 }
 
-#schedule-section .fa-dumbbell{
+ .fa-dumbbell{
     color: #ee542d;
     font-size: 1.5rem;
     padding: 10px 0 10px 0;
     text-align: center;
 }
 
-#schedule-section .schedule-p{
+ .schedule-p{
     width: 50%;
     text-align: center;
     color: #868686;
     padding-bottom: 50px;
     line-height: 1.7;
 } 
-#schedule-section .class-info {
+ .class-info {
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
    
 }
 
-#schedule-section .class-info .crossfit{
+  .crossfit{
     justify-content: flex-end;
 }
 
-#schedule-section .class-info .crossfit{
+ .crossfit{
     width: 400px;
     height: 500px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/cross-fit.jpg");
@@ -53,11 +53,11 @@
     margin: 10px 20px;
 }
 
-#schedule-section .class-info .crossfit .crossfit-content{
+ .crossfit-content{
     padding: 0 10px;
 }
 
-#schedule-section .class-info .crossfit .crossfit-name{
+.crossfit-name{
     background-color: black;
     border-radius: 5px;
     opacity: 0.8;
@@ -67,25 +67,25 @@
     font-size: 1.5rem;
 }
     
-#schedule-section .class-info .crossfit .crossfit-name:hover{
+ .crossfit-name:hover{
     background-color: #ee542d;
     color: white;
     }
 
-#schedule-section .class-info .crossfit .crossfit-date {
+  .crossfit-date {
     color: #ee542d;
     padding: 5px 0;
     font-size: 1.3rem;
     }
-#schedule-section .class-info .crossfit .crossfit-time{
+  .crossfit-time{
     color:white;
     padding-bottom: 5px;
     }
 
-#schedule-section .class-info .cardio{
+  .cardio{
     justify-content: flex-end;
 }
-#schedule-section .class-info .cardio{
+ .class-info .cardio{
     width: 400px;
     height: 500px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/cardio\ \(2\).jpg");
@@ -160,6 +160,7 @@ font-size: 1.5rem;
 #schedule-section .class-info .yoga .yoga-name:hover{
 background-color: #ee542d;
 color: white;
+cursor: pointer;
 }
 
 #schedule-section .class-info .yoga .yoga-date {
@@ -191,25 +192,27 @@ color: white;
     padding: 0 10px;
 }
 
-#schedule-section .class-info .aerobic .aerobic-name{
+#schedule-section .aerobic-name{
     background-color: black;
     border-radius: 5px;
     opacity: 0.8;
     color: white;
     letter-spacing: 2px;
-    padding: 5px 0 ;
+    padding: 8px 0 ;
     font-size: 1.5rem;
 }
 
-#schedule-section .class-info .aerobic .aerobic-name:hover{
+#schedule-section  .aerobic-name:hover{
     background-color: #ee542d;
     color: white;
+    cursor: pointer;
     }
 
 #schedule-section .class-info .aerobic .aerobic-date {
     color: #ee542d;
     padding: 5px 0;
     font-size: 1.3rem;
+   
 }
 #schedule-section .class-info .aerobic .aerobic-time{
     color:white;
@@ -333,7 +336,7 @@ width: 75%;
     #schedule-section .class-info .aerobic{
         width: 350px;
     }
-    #schedule-section .class-info .crossfit{
+    #schedule-section {
         width: 350px;
     }
     #schedule-section .class-info .martial-arts{

@@ -1,6 +1,6 @@
 /* Hero-img Section */
 
-#hero-section .hero-img{
+ .hero-img{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Img/gainhero.jpg");
     height: 100vh;
     width: 100%;
@@ -13,7 +13,7 @@
     flex-direction: column;
     margin-bottom: 50px;
 }
-#hero-section .hero-title{
+ .hero-title{
     text-align: center;
     color: white;
     font-size: 2rem;
@@ -22,16 +22,16 @@
     font-weight: 900; 
    
 }
-#hero-section h2{
+ .hero-sub-title{
     color: white;
     font-size: 5.5rem;
     font-weight: 900;
    
 }
-#hero-section h2 span{
+.hero-sub-title span{
     color: orangered;
 }
-#hero-section .hero-bottom-title {
+.hero-bottom-title {
     text-align: center;
     color: white;
     opacity: 0.5;
@@ -39,7 +39,7 @@
     font-size: 1.5rem;
 }
 
-#hero-section .hero-btn {
+ .hero-btn {
     background-color: orangered;
     text-align: center;
     padding: 10px 30px 10px 30px;
@@ -49,11 +49,11 @@
     margin-top:10px; 
     
 }
-#hero-section .hero-btn a {
+ .hero-btn a {
     text-decoration: none;
     color: antiquewhite;
 }
-#hero-section .hero-btn:hover{
+ .hero-btn:hover{
     background-color: black;
 
 }
@@ -62,19 +62,22 @@
 /* Media queries */
 
 @media only screen and (max-width: 768px){
-    #hero-section .hero-title{
+     .hero-title{
         font-size: 1.5rem;
     }
-    #hero-section h2{
+  .hero-sub-title{
         font-size: 3rem;
     }
-    #hero-section .hero-bottom-title{
+     .hero-bottom-title{
         font-size: 1rem;
     }
 }
 
 @media only screen and (max-width: 500px){
-    #hero-section .hero-btn{
+    .hero-btn{
+        font-size: 1rem;
+    }
+    .hero-bottom-title{
         font-size: 1rem;
     }
 }
