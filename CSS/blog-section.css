@@ -1,4 +1,4 @@
-#blog-section .blog-container{
+.blog-container{
     background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
@@ -10,21 +10,21 @@
     text-align: center;
     }
 
-    #blog-section .blog-title{
+  .blog-title{
         font-size: 2rem;
         padding-top: 40px;
         color: #232323;
     }
 
 
-#blog-section .blog-container .fa-dumbbell{
+ .fa-dumbbell{
     color: #ee542d;
     font-size: 1.5rem;
     padding: 10px 0 10px 0;
     text-align: center;
 }
 
-#blog-section .blog-p{
+.blog-p{
     width: 50%;
     text-align: center;
     color: #868686;
@@ -33,13 +33,13 @@
     
 }
 
-#blog-section .blog-wrapper{
+ .blog-wrapper{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#blog-section .blog-box{
+.blog-box{
     margin: 0px 20px 20px 20px;
    background-color: white;
    box-shadow: -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
@@ -47,7 +47,7 @@
    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
   
 }
-#blog-section .blog-box .blog-img{
+ .blog-box .blog-img{
     width: 350px;
     height: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/blog1.jpg");
@@ -58,7 +58,7 @@
     margin: 10px 20px;
 }
 
-#blog-section .blog-box .blog-date{
+ .blog-date{
 background-color: #232323;
 height: 50px;
 width: 50px;
@@ -68,12 +68,12 @@ padding: 5px;
 border-radius: 2px;
 }
 
-#blog-section .blog-box .blog-social .fas{
+ .fas{
     padding: 0px 10px;
    
 }
 
-#blog-section .blog-box .blog-content{
+ .blog-content{
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -81,26 +81,26 @@ border-radius: 2px;
     
     width: 350px;
 }
-#blog-section .blog-box .blog-content .blog-heading{
+.blog-heading{
     font-size: 1.5rem;
     text-align: left;
     padding-left: 10px;
 }
 
-#blog-section .blog-box .blog-content .blog-text{
+ .blog-text{
    text-align: left;
    padding: 10px 0px 0px 10px;
     color: #868686;
 }
 
-#blog-section .blog-box .blog-content .blog-link a{
+ .blog-link a{
     text-decoration: none;
     color: #232323;
 }
-#blog-section .blog-box .blog-content .blog-link a:hover{
+ .blog-link a:hover{
     color: #ee542d;
 }
-#blog-section .blog-box .blog-img2{
+ .blog-img2{
     width: 350px;
     height: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/blog2.jpg");
@@ -110,7 +110,7 @@ border-radius: 2px;
     justify-content: flex-end;
     margin: 10px 20px;
 }
-#blog-section .blog-box .blog-img3{
+ .blog-img3{
     width: 350px;
     height: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/blog3.jpg");
@@ -121,7 +121,7 @@ border-radius: 2px;
     margin: 10px 20px;
 }
 
-#blog-section .blog-box .blog-img4{
+ .blog-img4{
     width: 350px;
     height: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/blog4.jpg");
@@ -131,7 +131,8 @@ border-radius: 2px;
     justify-content: flex-end;
     margin: 10px 20px;
 }
-#blog-section .blog-box .blog-img5{
+
+.blog-img5{
     width: 350px;
     height: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/blog5.jpg");
@@ -141,7 +142,7 @@ border-radius: 2px;
     justify-content: flex-end;
     margin: 10px 20px;
 }
-#blog-section .blog-box .blog-img6{
+ .blog-img6{
     width: 350px;
     height: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/blog6.jpg");
@@ -151,7 +152,7 @@ border-radius: 2px;
     justify-content: flex-end;
     margin: 10px 20px;
 }
-#blog-section .blog-box .blog-img7{
+.blog-img7{
     width: 350px;
     height: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/blog7.jpg");
@@ -161,7 +162,7 @@ border-radius: 2px;
     justify-content: flex-end;
     margin: 10px 20px;
 }
-#blog-section .blog-box .blog-img8{
+ .blog-img8{
     width: 350px;
     height: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Img/blog8.jpg");
