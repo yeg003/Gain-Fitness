@@ -7,21 +7,21 @@
     
 }
 
- .call-container .left-call{
+ .left-call{
    margin-right: 20px;
 }
-.call-container .call-heading {
+ .call-heading {
     color: white;
    font-size: 2rem;  
    
 }
 
-.call-container .call-text{
+.call-text{
     color: white;
    padding-top: 10px;
 }
 
-.call-container .call-btn{
+.call-btn{
     background-color: white;
     text-align: center;
     padding: 10px 40px;

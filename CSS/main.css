@@ -67,7 +67,7 @@
         font-weight: 700; 
         width: 100%;
     }
-    .topnav .logo{
+     .logo{
         font-size: 1.4rem;
     }
     .topnav a{
@@ -76,7 +76,7 @@
 
     }
     @media only screen and (min-width: 500px){
-        #navbar-container .wrapper, h1 , ul {
+        .wrapper, h1 , ul {
             display: flex;              
             width: 100%;
             justify-content: center;
