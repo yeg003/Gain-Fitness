@@ -103,19 +103,19 @@
  }
  /* Tablet & Phone */
     @media only screen and (max-width: 768px){ 
-        #about-section #about-container{
+        #about-container{
             display: flex;
             flex-direction: column;
             flex: row;
-            width: 50%;
+            width: 80%;
         }
-        #about-section .about-p{
-            text-align: left;
+         .about-p{
+            text-align: justify;
         }
-        #about-section .about-btn-left{
+        .about-btn-left{
             margin-bottom: 40px;
         }   
-        #about-container .about-right-btn{
+         .about-right-btn{
             float: left;
             font-size: 1.2rem;
         }

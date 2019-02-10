@@ -11,7 +11,7 @@ function myFunction() {
 
 // Hover effect for schedule-section
 
-$(".cardio").on({
+$(".cardio-content").on({
   mouseenter: function () {
     $("cardio-name").css("background-color", "#ee542d")
   },
