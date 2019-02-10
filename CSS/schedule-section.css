@@ -94,7 +94,9 @@
     flex-direction: column;
     margin: 10px 20px;
 }
-
+.cardio:hover{
+    background-color: #ee542d;
+}
  .cardio-content{
     padding: 0 10px;
 }
@@ -110,10 +112,10 @@
     cursor: default;
 }
 
-.cardio-name:hover{
+/* .cardio-name:hover{
     background-color: #ee542d;
     color: white;
-    }
+    } */
 
  .cardio-date {
 color: #ee542d;
