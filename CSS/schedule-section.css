@@ -62,7 +62,7 @@
     opacity: 0.8;
     color: white;
     letter-spacing: 2px;
-    padding: 5px 0 ;
+    padding: 8px 0px ;
     font-size: 1.5rem;
     cursor: default;
 }
@@ -105,14 +105,9 @@
     opacity: 0.8;
     color: white;
     letter-spacing: 2px;
-    padding: 5px 0 ;
+    padding: 8px 0px ;
     font-size: 1.5rem;
     cursor: default;
-}
- .cardio-name{
-    letter-spacing: 2px;
-    padding: 5px 0 ;
-    font-size: 1.5rem;
 }
 
 .cardio-name:hover{
@@ -154,7 +149,7 @@ border-radius: 5px;
 opacity: 0.8;
 color: white;
 letter-spacing: 2px;
-padding: 5px 0 ;
+padding: 8px 0px ;
 font-size: 1.5rem;
 cursor: default;
 }
@@ -249,7 +244,7 @@ color: white;
     opacity: 0.8;
     color: white;
     letter-spacing: 2px;
-    padding: 5px 0 ;
+    padding: 8px 0px ;
     font-size: 1.5rem;
     cursor: default;
 }
