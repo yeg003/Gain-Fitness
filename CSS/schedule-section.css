@@ -34,7 +34,7 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-   
+    cursor:context-menu;
 }
 
   .crossfit{
@@ -111,8 +111,6 @@
     font-size: 1.5rem;
     cursor: default;
 }
-
-
 
  .cardio-date {
 color: #ee542d;
