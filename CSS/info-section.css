@@ -20,6 +20,7 @@
     margin: 40px 20px;
     border-radius: 5px; 
     color: #232323;
+    cursor:context-menu;
 }
 
  .clock-box:hover{
@@ -34,10 +35,12 @@
  .clock-number{
     font-size: 2rem;
     font-weight: 900;
+    
 }
  .clock-text{
     font-weight: 700;
     font-size: 1.3rem;
+   
 }
  .heart-box{
     padding: 30px 20px;
@@ -45,6 +48,7 @@
     color: #232323;
     margin: 40px 20px;
     border-radius: 5px; 
+    cursor:context-menu;
 }
  .heart-box:hover{
     background-color: #fb5610;
@@ -70,6 +74,7 @@
     margin: 40px 20px;
     border-radius: 5px; 
     color: #232323;
+    cursor:context-menu;
 }
  .thumbs-box:hover{
     background-color: #fb5610;
@@ -96,6 +101,7 @@
     margin: 40px 20px;
     border-radius: 5px; 
     color: #232323;
+    cursor:context-menu;
 }
  .people-box:hover{
     background-color: #fb5610;
