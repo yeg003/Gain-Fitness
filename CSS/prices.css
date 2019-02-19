@@ -131,6 +131,18 @@
     color: black;
 }
 
+/* Copyright Section */
+.copyright {
+    height: 70px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #232323;
+}
+.copyright span{
+    color: #ee542d;
+}
 @media only screen and (max-width: 768px){
     #membership-section .membership-container{
         flex-direction: column;
