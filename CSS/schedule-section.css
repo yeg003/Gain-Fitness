@@ -79,7 +79,7 @@
     }
   .crossfit-time{
     color:white;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     }
 
   .cardio{
@@ -112,6 +112,11 @@
     cursor: default;
 }
 
+.cardio-name:hover{
+    background-color: #ee542d;
+    color: white;
+    
+    }
  .cardio-date {
 color: #ee542d;
 padding: 5px 0;
@@ -119,7 +124,7 @@ font-size: 1.3rem;
 }
  .cardio-time{
 color:white;
-padding-bottom: 5px;
+padding-bottom: 10px;
 }
  .yoga{
 justify-content: flex-end;
@@ -164,7 +169,7 @@ color: white;
 }
  .yoga-time{
     color:white;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
  .aerobic{
@@ -211,7 +216,7 @@ color: white;
 }
  .aerobic-time{
     color:white;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 
@@ -259,7 +264,7 @@ color: white;
 
     .martial-time{
     color:white;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     }
 
     
@@ -304,7 +309,7 @@ color: white;
     }
     .body-time{
         color:white;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
 /* Media Queries */
 

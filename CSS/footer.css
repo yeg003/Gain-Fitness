@@ -156,6 +156,7 @@ color: #232323;
     justify-content: center;
     align-items: center;
     color: #232323;
+    cursor: default;
 }
 .copyright span{
     color: #ee542d;
