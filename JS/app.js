@@ -7,16 +7,3 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-
-
-// Hover effect for schedule-section
-
-// $(".cardio-content").on({
-//   mouseenter: function () {
-//     $("cardio-name").css("background-color", "#ee542d")
-//   },
-//   mouseleave: function () {
-//     $("cardio-name").css("background-color", "black")
-//   },
-
-// })
